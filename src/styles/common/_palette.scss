@@ -1,0 +1,53 @@
+// Theme: https://color.adobe.com/CS04-color-theme-6612582
+// #F6F792
+// #333745
+// #77C4D3
+// #DAEDE3
+// #EA2E49
+
+// Primary
+$primary: #77C4D3;
+$primary-100: #A9F1FF;
+$primary-200: $primary;
+$primary-300: #3E7B86;
+
+// Secondary
+$secondary: #EA2E49;
+$secondary-100: #FF4C65;
+$secondary-200: $secondary;
+$secondary-300: #9D0F24;
+
+// Special
+$special: #F6F792;
+$special-100: #FEFFB0;
+$special-200: $special;
+$special-300: #AAAA54;
+
+// Light
+$light: #DAEDE3;
+$light-100: #fff;
+$light-200: $light;
+$light-300: #84A090;
+
+// Dark
+$dark: #333745;
+$dark-100: #3C4152;
+$dark-200: $dark;
+$dark-300: #262933;
+
+// Notifications: https://color.adobe.com/Notification-Message-Colors-v02-color-theme-2924531
+// Info #18A2C9
+// Success #28C262
+// Error #FF4747
+// Warning #E88C47
+// Extra #FFE338
+
+$info: #18A2C9;
+
+$success: #28C262;
+
+$error: #FF4747;
+
+$warning: #E88C47;
+
+$extra: #FFE338;
