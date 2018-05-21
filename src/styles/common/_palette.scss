@@ -1,53 +1,52 @@
-// Theme: https://color.adobe.com/CS04-color-theme-6612582
-// #F6F792
-// #333745
-// #77C4D3
-// #DAEDE3
-// #EA2E49
-
 // Primary
-$primary: #77C4D3;
-$primary-100: #A9F1FF;
-$primary-200: $primary;
-$primary-300: #3E7B86;
+$primary: #F8CC1C !default;
+$primary-100: #F9EF7A !default;
+$primary-200: #F8E01C !default;
+$primary-300: $primary !default;
+$primary-400: #F8AA1C !default;
+$primary-500: #C98812 !default;
 
 // Secondary
-$secondary: #EA2E49;
-$secondary-100: #FF4C65;
-$secondary-200: $secondary;
-$secondary-300: #9D0F24;
+$secondary: #849ED4 !default;
+$secondary-100: #EAF0FB !default;
+$secondary-200: #C7D6F3 !default;
+$secondary-300: $secondary !default;
+$secondary-400: #556994 !default;
+$secondary-500: #2B3A59 !default;
 
-// Special
-$special: #F6F792;
-$special-100: #FEFFB0;
-$special-200: $special;
-$special-300: #AAAA54;
+// White/Gray/Black
+$white: #fff !default;
 
-// Light
-$light: #DAEDE3;
-$light-100: #fff;
-$light-200: $light;
-$light-300: #84A090;
+$gray: #636363 !default;
+$gray-100: #F9F7F7 !default;
+$gray-200: #BFBFBF !default;
+$gray-300: $gray !default;
+$gray-400: #343434 !default;
+$gray-500: #222 !default;
 
-// Dark
-$dark: #333745;
-$dark-100: #3C4152;
-$dark-200: $dark;
-$dark-300: #262933;
+$black: #000 !default;
 
-// Notifications: https://color.adobe.com/Notification-Message-Colors-v02-color-theme-2924531
-// Info #18A2C9
-// Success #28C262
-// Error #FF4747
-// Warning #E88C47
-// Extra #FFE338
+// Notifications/Communication
+$info: #188AC9 !default;
+$info-100: #D4ECF9 !default;
+$info-200: #6DB7E0 !default;
+$info-300: $info !default;
+$info-400: #0F6A9C !default;
 
-$info: #18A2C9;
+$success: #28C262 !default;
+$success-100: #DEF5E7 !default;
+$success-200: #80E5A6 !default;
+$success-300: $success !default;
+$success-400: #1F8E49 !default;
 
-$success: #28C262;
+$error: #F50C0C !default;
+$error-100: #FFD8D8 !default;
+$error-200: #F17F7F !default;
+$error-300: $error !default;
+$error-400: #C20707 !default;
 
-$error: #FF4747;
-
-$warning: #E88C47;
-
-$extra: #FFE338;
+$warning: #FA9C00 !default;
+$warning-100: #FFEAD9 !default;
+$warning-200: #FEC392 !default;
+$warning-300: $warning !default;
+$warning-400: #D06206 !default;

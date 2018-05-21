@@ -7,19 +7,20 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   padding: $spacing*2;
-  background: $light;
-  color: $dark-100;
+  background: $gray-100;
+  color: $gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $serif, serif;
+  font-weight: 400;
   margin: 0 0 0.5em;
   padding: 0;
   color: $primary;
 }
 
 [content] {
-  background: $light-100;
+  background: $white;
   padding: $spacing*2;
   line-height: 1.8;
 }
